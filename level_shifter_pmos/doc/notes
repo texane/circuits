@@ -1,0 +1,7 @@
+when the difference between the driving logic voltage and
+the pmos transistor gate voltage is greater than the gate
+to source allowed voltage, a level shifter is needed. its
+goal is to provide a DC offset with through the voltage
+divider R2 R3. a transistor Q2 reference the divider to
+the ground. the voltage divider is followed by a totem
+pole transistor configuration, which drives the pmos M1.
